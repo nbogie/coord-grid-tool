@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script src="js/mySketch.js" type="text/javascript"></script>
+        <script src="js/mousePos.js" type="text/javascript"></script>
+        <script src="js/drawFunctions.js" type="text/javascript"></script>
+        <script src="js/interaction.js" type="text/javascript"></script>
+        <script src="js/markers.js" type="text/javascript"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"
+            type="text/javascript"
+        ></script>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Co-ordinate grid (planning tool)</h1>
+            <div id="sketch-holder"></div>
+            <div class="shortcuts">
+                <div class="shortcut">
+                    <kbd>mouse click</kbd>
+                    <div>add marker at mouse pos</div>
+                </div>
+
+                <div class="shortcut">
+                    <div>hold <kbd>shift</kbd></div>
+                    <div>snap to grid</div>
+                </div>
+                <div class="shortcut">
+                    <kbd>s</kbd>
+                    <div>save image</div>
+                </div>
+                <div class="shortcut">
+                    <kbd>space</kbd>
+                    <div>remove points</div>
+                </div>
+                <div class="shortcut">
+                    <kbd>h</kbd>
+                    <div>hide coordinates (cycle)</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
