@@ -10,14 +10,13 @@ function setup() {
     //Fancier way of creating a canvas so that it is a child of a specific element
     let canvasParent = document.getElementById("sketch-holder");
     createCanvas(400, 400).parent(canvasParent);
-
     noCursor();
     textAlign(CENTER, CENTER);
     resetAllMarkers();
 }
 
 function draw() {
-    background(255);
+    background(palette.background);
     drawGridLines();
     drawGridLabels();
     drawXAxisArrow();

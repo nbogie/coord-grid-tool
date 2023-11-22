@@ -22,6 +22,9 @@ function keyPressed() {
     if (key === "s") {
         save("grid"); //save canvas image to a file (may prompt for download)
     }
+    if (key === "d") {
+        toggleDarkMode();
+    }
     if (key === "h") {
         cycleMarkerMode(); // change marker display mode
     }
